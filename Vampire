@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вампиры из Мира Тьмы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #ff6666;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .divider {
+            border-top: 1px solid #444;
+            margin: 20px 0;
+        }
+        .indent {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Вампиры из Мира Тьмы</h1>
+        <img src="https://sun9-67.userapi.com/impg/Lqu_QVwQRt4BWGxdlGnPGOVypyCSZgUxFRHyXw/2ADprk1BJ2E.jpg?size=2560x1510&quality=95&sign=ca0b245c41bc5006585baa7543ca8c33&type=album" alt="Вампир">
+        <p>
+            Вампиры — это ночные существа, скрывающиеся в тени и питающиеся кровью живых. В мире тьмы они являются одними из самых загадочных и опасных существ.
+        </p>
+
+        <div class="divider"></div>
+
+        <h2>Кланы Вампиров</h2>
+        <p>
+            В мире тьмы существует множество кланов вампиров, каждый из которых имеет свои уникальные способности и традиции. Вот некоторые из них:
+        </p>
+        <div class="indent">
+            <h3>Клан Вентру</h3>
+            <p>
+                Вентру — это аристократы среди вампиров, обладающие большим влиянием и властью. Они известны своей утонченностью и строгими моральными принципами.
+            </p>
+
+            <h3>Клан Бруха</h3>
+            <p>
+                Бруха — это мятежники и революционеры, всегда готовые бороться за свои идеалы. Они известны своей страстностью и физической силой.
+            </p>
+
+            <h3>Клан Тремер</h3>
+            <p>
+                Тремер — это маги среди вампиров, обладающие знаниями древних ритуалов и заклинаний. Они стремятся к познанию и контролю над магией.
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <h2>Известные Вампиры</h2>
+        <p>
+
+            В мире тьмы есть множество известных вампиров, оставивших свой след в истории. Вот некоторые из них:
+        </p>
+        <div class="indent">
+            <h3>Дракула</h3>
+            <p>
+                Дракула — один из самых известных вампиров всех времен. Его имя стало синонимом ужаса и тьмы.
+            </p>
+
+            <h3>Лилит</h3>
+            <p>
+                Лилит — древняя и могущественная вампирша, известная своими коварными планами и стремлением к власти.
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <h2>Ссылки для Дополнительного Чтения</h2>
+        <ul>
+            <li><a href="https://whitewolf.fandom.com/wiki/Vampire:_The_Masquerade" target="_blank">Vampire: The Masquerade на Fandom</a></li>
+            <li><a href="https://www.worldofdarkness.com/" target="_blank">Официальный сайт World of Darkness</a></li>
+        </ul>
+    </div>
+</body>
+</html>
