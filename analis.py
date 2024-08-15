@@ -7,4 +7,6 @@ print(df.describe())
 
 df1 = pd.read_csv('dz.csv')
 df1.fillna(0, inplace=True)
-print(df1['Salary'].mean)
+print(df1)
+group = df1.groupby('City')['Salary'].mean()
+print(group)
