@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки пользователей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 15px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="https://kinolift.com/media/users/1040/10038_l.jpg" alt="Фото пользователя">
+    <div class="card-content">
+        <h3>Иван Иванов</h3>
+        <p>Email: ivan@example.com</p>
+        <p>Дата рождения: 01.01.1990</p>
+        <p>Город: Москва</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="https://uchastniki.com/wp-content/uploads/2018/08/twins_maria_36160272_456933981400463_1043340447751077888_n.jpg" alt="Фото пользователя">
+    <div class="card-content">
+        <h3>Мария Смирнова</h3>
+        <p>Email: maria@example.com</p>
+        <p>Дата рождения: 15.05.1985</p>
+        <p>Город: Санкт-Петербург</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="https://cdnstatic.rg.ru/uploads/images/135/45/83/gitara_1000.jpg" alt="Фото пользователя">
+    <div class="card-content">
+        <h3>Алексей Кузнецов</h3>
+        <p>Email: alexey@example.com</p>
+        <p>Дата рождения: 20.09.1975</p>
+        <p>Город: Новосибирск</p>
+    </div>
+</div>
+
+</body>
+</html>
