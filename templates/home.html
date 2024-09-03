@@ -1,0 +1,21 @@
+ {% extends 'base.html' %}
+
+   {% block title %}Home - My Website{% endblock %}
+
+   {% block content %}
+   <h1>Welcome to Home Page</h1>
+   <div class="cards">
+       <div class="card">
+           <img src="{{ url_for('static', filename='img/1.jpg') }}" alt="Photo 1">
+           <p>Тремер</p>
+       </div>
+       <div class="card">
+           <img src="{{ url_for('static', filename='img/2.jpg') }}" alt="Photo 2">
+           <p>Носферату</p>
+       </div>
+       <div class="card">
+           <img src="{{ url_for('static', filename='img/3.jpg') }}" alt="Photo 3">
+           <p>Вентру</p>
+       </div>
+   </div>
+   {% endblock %}
