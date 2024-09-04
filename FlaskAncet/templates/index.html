@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>User Form</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">User Information Form</h2>
+        <form method="post" class="mb-4">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="hobby">Hobby</label>
+                <input type="text" class="form-control" id="hobby" name="hobby" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        {% if user_data %}
+            <h3>Submitted Data:</h3>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Name:</strong> {{ user_data.name }}</li>
+                <li class="list-group-item"><strong>City:</strong> {{ user_data.city }}</li>
+                <li class="list-group-item"><strong>Hobby:</strong> {{ user_data.hobby }}</li>
+                <li class="list-group-item"><strong>Age:</strong> {{ user_data.age }}</li>
+            </ul>
+        {% endif %}
+    </div>
+</body>
+</html>
